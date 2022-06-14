@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<meta http-equiv="refresh" content="1" />
+
 <div class="container">
 
 @if(Session::has('mensaje'))

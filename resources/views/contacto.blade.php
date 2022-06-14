@@ -15,7 +15,7 @@
 body{
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;
-  background-color: #ab4493; 
+  background-color: #EEFFDB; 
 }
 
 
@@ -30,7 +30,6 @@ body{
   padding-left: 30px; 
 }
 
-
 input{
   background-color: #fbfbfb; 
   width: 408px; 
@@ -43,7 +42,6 @@ input{
   padding-left: 10px;
   margin-bottom: 20px; 
 }
-
 
 textarea{
   background-color: #fbfbfb; 
@@ -59,12 +57,10 @@ textarea{
   padding-top: 15px; 
 }
 
-
 label{
   display: block; 
   float: center;  
 }
-
 
 button{
   height: 45px; 
@@ -81,22 +77,18 @@ button{
   cursor: pointer;
 }
 
-
 button p{
   color: #fff; 
 }
-
 
 span{
   color: #ab4493; 
 }
 
-
 .aviso{
   font-size: 13px;  
   color: #0e0e0e;  
 }
-
 
 h1{
   font-size: 39px;  
@@ -105,19 +97,16 @@ h1{
   color: #ab4493;
 }
 
-
 h3{
   font-size: 16px; 
   padding-bottom: 30px;
   color: #0e0e0e;   
 }
 
-
 p{
   font-size: 14px; 
   color: #0e0e0e; 
 }
-
 
 ::-webkit-input-placeholder {
  color: #a8a8a8;

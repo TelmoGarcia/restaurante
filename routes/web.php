@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlatoController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\productosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,8 @@ Route::get('/', function () {
 
 Route::resource('platos', PlatoController::class);
 
+
+
 Route::get('/inicio',[HomeController::class,'index'])->name('inicio');
 
 Auth::routes(['reset'=>false]);
@@ -32,8 +35,13 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
+Route::get('/productos', function () {
+    return view('productos');
+});
+
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

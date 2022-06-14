@@ -34,10 +34,7 @@
             display: flex;
             flex-flow: column;
             justify-content: center;
-            background-image: url('https://w0.peakpx.com/wallpaper/920/574/HD-wallpaper-food-coffee-coffee-beans-croissant-cup-drink-still-life-viennoiserie.jpg');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            background-color: #EEFFDB;
         }
 
         .navbar {
@@ -85,6 +82,9 @@
                     
                         <li>
                             <a  class="nav-link" href="{{ url('/contacto') }}">Contacto</a>
+                        </li>
+                        <li>
+                            <a  class="nav-link" href="{{ url('/productos') }}">Productos</a>
                         </li>
                         
                         
