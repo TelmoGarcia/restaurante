@@ -42,6 +42,7 @@
 
         .navbar {
             background-color: #efbf8a !important;
+            position: flex;
         }
         
         .navbar-brand{
@@ -50,13 +51,7 @@
             
         }
 
-        #footer {
-            position:absolute;
-            bottom:0;
-            width:100%;
-            height:60px;   /* Height of the footer */
-            background-color:#efbf8a;
-        }
+      
 
         
 
@@ -140,11 +135,12 @@
 
         
     </div>
+    
     <main class="py-4">
         @yield('content')
     </main>
 
-<div class="footer"> tontito</div>
+
 
 </body>
 </html>
