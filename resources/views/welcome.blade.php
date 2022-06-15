@@ -99,33 +99,6 @@
             font-family: sans-serif;
         }
 
-        .tarjeta2{
-
-            background-color: #CDD1C4;
-            margin-left: 10%;
-            display:flex;
-            flex-direction:column;
-            justify-content:space-between;
-            width:400px;
-            border: 1px solid #d3d3d3d1;
-            box-shadow: 2px 2px 8px 4px #ec8b8bd1;
-            border-radius:15px;
-            font-family: sans-serif;
-        }
-
-        .tarjeta3{
-
-            background-color: #CDD1C4;
-            margin-left: 10%;
-            display:flex;
-            flex-direction:column;
-            justify-content:space-between;
-            width:400px;
-            border: 1px solid #d3d3d3d1;
-            box-shadow: 2px 2px 8px 4px #ec8b8bd1;
-            border-radius:15px;
-            font-family: sans-serif;
-        }
 
         .titulo{
             font-size: 24px;
@@ -155,7 +128,7 @@
     </div>
     </div>
    
-    <div class="tarjeta2">
+    <div class="tarjeta">
         <div class="titulo">
             Servicio de Contacto 24/7
         </div>
@@ -169,7 +142,7 @@
     </div>
     </div>
 
-    <div class="tarjeta3">
+    <div class="tarjeta">
         <div class="titulo">
             Café de alta calidad
 
