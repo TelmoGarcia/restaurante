@@ -19,14 +19,17 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <style>
 
         html, body {
-             min-height: 100%;
+            min-height: 100%;
         }
 
         body{
@@ -38,7 +41,7 @@
         }
 
         .navbar {
-            background-color: #FEAD55 !important;
+            background-color: #efbf8a !important;
         }
         
         .navbar-brand{
@@ -47,7 +50,13 @@
             
         }
 
-      
+        #footer {
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:60px;   /* Height of the footer */
+            background-color:#efbf8a;
+        }
 
         
 
@@ -134,6 +143,8 @@
     <main class="py-4">
         @yield('content')
     </main>
+
+<div class="footer"> tontito</div>
 
 </body>
 </html>
